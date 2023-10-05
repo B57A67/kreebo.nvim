@@ -17,7 +17,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
     { import = "B57A67.plugins" },
-    -- { import = "B57A67.plugins.lsp" }
+    { import = "B57A67.plugins.lsp" }
   },
   {
     install = {
